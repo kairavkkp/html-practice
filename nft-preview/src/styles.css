@@ -1,0 +1,82 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: var(--card-bg);
+  margin: 50px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 50px auto;
+  align-items: center;
+  width: 375px;
+  padding: 25px;
+}
+
+.nft-image img {
+  width: 100%;
+  border-radius: 5%;
+}
+
+.nft-image img:hover {
+  cursor: pointer;
+}
+
+.nft-description {
+  line-height: 2rem;
+  padding: 10px 0px;
+}
+
+hr {
+  border-color: var(--line);
+}
+
+p {
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  cursor: pointer;
+}
+
+strong {
+  color: white;
+}
+strong:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.price-and-time {
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  font-weight: 600;
+}
+
+.creator-description {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
