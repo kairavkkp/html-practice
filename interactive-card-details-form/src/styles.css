@@ -1,0 +1,75 @@
+:root {
+  --red: hsl(0, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
+  --light-grayish-violet: hsl(270, 3%, 87%);
+  --dark-grayish-violet: hsl(279, 6%, 55%);
+  --very-dark-violet: hsl(278, 68%, 11%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--white);
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+/* Desktop */
+@media (max-width: 1440px) {
+  body {
+    background-color: --white;
+  }
+
+  .main-container {
+    display: flex;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  .front-card-image {
+    position: relative;
+    top: 150px;
+    left: 200px;
+  }
+  .back-card-image {
+    position: absolute;
+    top: 450px;
+    left: 275px;
+  }
+
+  .gradient-section img {
+    content: url(images/bg-main-desktop.png);
+  }
+}
+
+/* Mobile  */
+@media (max-width: 375px) {
+  body {
+    background-color: --white;
+  }
+
+  .front-card-image {
+    width: 250px;
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    z-index: 2;
+  }
+  .back-card-image {
+    width: 250px;
+    position: absolute;
+    top: 90px;
+    left: 110px;
+    z-index: 1;
+  }
+
+  .gradient-section img {
+    content: url(images/bg-main-mobile.png);
+  }
+}
