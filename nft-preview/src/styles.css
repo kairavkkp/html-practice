@@ -1,0 +1,125 @@
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg: hsl(217, 54%, 11%);
+  --main-border-bg: hsl(216, 53%, 9%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 18%, 32%);
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg);
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  margin: 50px auto;
+  width: 375px;
+  padding: 25px;
+  box-shadow: 10px 10px 10px 10px var(--main-border-bg);
+  border: 1px solid var(--main-border-bg);
+}
+
+.nft-image {
+  background: var(--cyan);
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: inherit;
+  border-radius: 5%;
+}
+.nft-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2%;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+}
+
+.nft-image img:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.nft-description {
+  line-height: 2rem;
+  padding: 10px 0px;
+}
+
+hr {
+  border-color: var(--line);
+}
+
+p {
+  color: var(--soft-blue);
+  font-weight: 300;
+}
+
+a {
+  color: white;
+}
+a:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+strong {
+  color: white;
+}
+strong:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.price-and-time {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.nft-price {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.nft-price img {
+  padding-right: 10px;
+}
+
+.nft-time {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+.nft-time img {
+  padding-right: 10px;
+}
+
+.creator-description {
+  display: flex;
+  padding-top: 10px;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.creator-description img {
+  border: 1px solid white;
+  border-radius: 500px;
+  margin-right: 20px;
+}
+
+.creator-description a {
+  padding-left: 5px;
+}
