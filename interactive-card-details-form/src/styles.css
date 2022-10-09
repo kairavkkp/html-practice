@@ -79,6 +79,16 @@ body {
     text-transform: uppercase;
   }
 
+  .card-cvc {
+    color: white;
+    position: absolute;
+    top: 535px;
+    left: 630px;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
   .payment-details {
     padding: 0px;
   }
@@ -146,6 +156,17 @@ body {
     position: absolute;
     top: 260px;
     left: 220px;
+    font-weight: 500;
+    font-size: 12px;
+    z-index: 2;
+    text-transform: uppercase;
+  }
+
+  .card-cvc {
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 285px;
     font-weight: 500;
     font-size: 12px;
     z-index: 2;
