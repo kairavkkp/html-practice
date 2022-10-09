@@ -58,7 +58,7 @@ body {
     width: 250px;
     height: 138px;
     position: absolute;
-    top: 150px;
+    top: 152px;
     left: 20px;
     z-index: 2;
   }
@@ -66,7 +66,7 @@ body {
     width: 250px;
     position: absolute;
     top: 72px;
-    left: 65px;
+    left: 90px;
     z-index: 1;
   }
 
