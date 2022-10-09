@@ -14,18 +14,29 @@
     <div class="main-container">
       <img class="gradient-bg" alt="gradient" />
 
-      <img
-        class="front-card-image"
-        src="images/bg-card-front.png"
-        alt="front-card"
-      />
-      <img
-        class="back-card-image"
-        src="images/bg-card-back.png"
-        alt="back-card"
-      />
+      <div class="front-card">
+        <img
+          class="front-card-image"
+          src="images/bg-card-front.png"
+          alt="front-card"
+        />
+        <img class="card-logo" src="images/card-logo.svg" alt="card-logo" />
+        <p class="card-number" placeholder="0000 0000 0000 0000">
+          0000 0000 0000 0000
+        </p>
+        <p class="card-name">jane appleseed</p>
+        <p class="card-expiry-date">00/00</p>
+      </div>
 
-      <div class="form">
+      <div class="back-card">
+        <img
+          class="back-card-image"
+          src="images/bg-card-back.png"
+          alt="back-card"
+        />
+      </div>
+
+      <div class="payment-details">
         <form>
           <label for="cardholder-name">CARDHOLDER NAME</label><br />
           <input
