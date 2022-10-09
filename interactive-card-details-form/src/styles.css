@@ -21,55 +21,56 @@ body {
 
 /* Desktop */
 @media (max-width: 1440px) {
-  body {
-    background-color: --white;
-  }
-
   .main-container {
     display: flex;
     position: relative;
     top: 0;
     left: 0;
+    height: 100%;
+    width: 100%;
   }
 
   .front-card-image {
     position: relative;
     top: 150px;
-    left: 200px;
+    left: -350px;
+    height: 100%;
   }
   .back-card-image {
     position: absolute;
-    top: 450px;
+    top: 425px;
     left: 275px;
   }
 
-  .gradient-section img {
+  .gradient-bg {
     content: url(images/bg-main-desktop.png);
   }
 }
 
 /* Mobile  */
 @media (max-width: 375px) {
-  body {
-    background-color: --white;
+  .main-container {
+    height: 100%;
+    width: 100%;
   }
 
   .front-card-image {
     width: 250px;
+    height: 138px;
     position: absolute;
-    top: 175px;
+    top: 150px;
     left: 20px;
     z-index: 2;
   }
   .back-card-image {
     width: 250px;
     position: absolute;
-    top: 90px;
-    left: 110px;
+    top: 72px;
+    left: 65px;
     z-index: 1;
   }
 
-  .gradient-section img {
+  .gradient-bg {
     content: url(images/bg-main-mobile.png);
   }
 }
