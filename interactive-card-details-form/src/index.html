@@ -37,24 +37,58 @@
         <p class="card-cvc">000</p>
       </div>
 
-      <!-- <div class="payment-details">
-        <form>
-          <label for="cardholder-name">CARDHOLDER NAME</label><br />
-          <input
-            type="text"
-            id="cardholder-name"
-            name="cardholder-name"
-          /><br />
-          <label for="card-number">CARD NUMBER</label><br />
-          <input type="text" id="card-number" name="card-number" /><br />
-          <label for="card-number">EXP. DATE (MM/YY)</label><br />
-          <input type="text" id="exp-date-month" name="exp-date-month" />
-          <input type="text" id="exp-date-year" name="exp-date-year" />
-          <label for="cvc">CVC</label><br />
-          <input type="text" id="cvc" name="cvc" /><br />
-          <input type="button" id="confirm" name="confirm" value="Confirm" />
+      <div class="payment-details">
+        <form class="card-form">
+          <div class="card-holder-details">
+            <label for="cardholder-name">CARDHOLDER NAME</label><br />
+            <input
+              type="text"
+              id="cardholder-name"
+              name="cardholder-name"
+              placeholder="eg. Jane Appleseed"
+            />
+          </div>
+          <br />
+          <div class="card-number-details">
+            <label for="card-number">CARD NUMBER</label><br />
+            <input
+              type="text"
+              id="card-number"
+              name="card-number"
+              placeholder="eg. 1234 5678 9123 0000"
+            /><br />
+          </div>
+          <br />
+          <div class="card-expiry-cvc-details">
+            <div class="card-expiry-details">
+              <label for="card-number">EXP. DATE (MM/YY)</label><br />
+              <div class="card-expiry-inputs">
+                <input
+                  type="text"
+                  id="exp-date-month"
+                  name="exp-date-month"
+                  placeholder="MM"
+                />
+                <input
+                  type="text"
+                  id="exp-date-year"
+                  name="exp-date-year"
+                  placeholder="YY"
+                />
+              </div>
+            </div>
+            <div class="card-cvc-details">
+              <label for="cvc">CVC</label>
+              <br />
+              <input type="text" id="cvc" name="cvc" placeholder="eg. 123" />
+            </div>
+          </div>
+          <br />
+          <div class="card-confirm">
+            <input type="button" id="confirm" name="confirm" value="Confirm" />
+          </div>
         </form>
-      </div> -->
+      </div>
     </div>
   </body>
 </html>
