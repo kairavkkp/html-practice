@@ -270,4 +270,12 @@ body {
     z-index: 2;
     text-transform: uppercase;
   }
+
+  .payment-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 120px 25px 25px 25px;
+  }
 }
