@@ -97,12 +97,13 @@ body {
   flex-direction: column;
 }
 
-.payment-details {
+/* .payment-details {
   display: none;
-}
+} */
 
 .thank-you-area {
   padding: 40px;
+  display: none;
 }
 
 .thank-you-area h2 {
