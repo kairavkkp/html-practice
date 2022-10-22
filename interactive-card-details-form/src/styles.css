@@ -213,7 +213,7 @@ body {
   border-radius: 8px;
 }
 /* Mobile  */
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .main-container {
     display: flex;
     height: 100%;
