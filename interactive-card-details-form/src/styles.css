@@ -226,25 +226,26 @@ body {
     height: 138px;
     position: absolute;
     top: 152px;
-    left: 20px;
+    left: 80px;
     z-index: 2;
   }
   .back-card-image {
     width: 250px;
     position: absolute;
     top: 72px;
-    left: 90px;
+    left: 140px;
     z-index: 1;
   }
 
   .gradient-bg {
     content: url(images/bg-main-mobile.png);
+    width: 100%;
   }
 
   .card-logo {
     position: absolute;
     top: 170px;
-    left: 40px;
+    left: 100px;
     z-index: 2;
     height: 30px;
   }
@@ -253,7 +254,7 @@ body {
     color: white;
     position: absolute;
     top: 230px;
-    left: 42px;
+    left: 105px;
     font-weight: 500;
     font-size: 18px;
     z-index: 2;
@@ -263,7 +264,7 @@ body {
     color: white;
     position: absolute;
     top: 260px;
-    left: 42px;
+    left: 105px;
     font-weight: 500;
     font-size: 12px;
     z-index: 2;
@@ -274,7 +275,7 @@ body {
     color: white;
     position: absolute;
     top: 260px;
-    left: 220px;
+    left: 280px;
     font-weight: 500;
     font-size: 12px;
     z-index: 2;
@@ -285,7 +286,7 @@ body {
     color: white;
     position: absolute;
     top: 130px;
-    left: 285px;
+    left: 335px;
     font-weight: 500;
     font-size: 12px;
     z-index: 2;
